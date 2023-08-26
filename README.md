@@ -1,2 +1,2 @@
 # Flipper-Zero-BadUSB
-Coming today!.
+Coming today!
