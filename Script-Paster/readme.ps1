@@ -32,3 +32,8 @@
 #Acknowledgments
 #MrSec
 #All Credits To WillyJl & I am Jakoby
+function Upload-Discord {
+	[CmdletBinding()]
+	param (
+		[parameter(Position=0,Mandatory=$False)]
+		[string]$file,
