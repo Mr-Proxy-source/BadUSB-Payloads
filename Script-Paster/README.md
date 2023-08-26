@@ -97,7 +97,7 @@ Mr Proxy
 ## Acknowledgments
 
 * [MrSec](https://mrsec.bio/)
-* All Credits ^^ To WillyJl he made this website!
+* All Credits To WillyJl & I am Jakoby
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
