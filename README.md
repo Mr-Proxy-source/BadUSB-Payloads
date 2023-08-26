@@ -9,8 +9,6 @@
 
 [Description](#Description)
 
-[The Payloads](#The-Payloads)
-
 [Contact](#Contact)
 
 [Acknowledgments](#Acknowledgments)
