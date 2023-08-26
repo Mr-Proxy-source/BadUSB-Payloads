@@ -91,15 +91,11 @@ Mr Proxy
 </table>
 </div>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [MrSec](https://mrsec.bio/)
 * All Credits To WillyJl & I am Jakoby
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
