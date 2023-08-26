@@ -24,7 +24,7 @@ Payload used to import long/encrypted scripts really fast through the powershell
 ## Description
 
 ### This payload will open link with your payload, copy payload and then open wd bypassed powershell window and paste the script.
-### This script is usefull to easily run long/encrypted script on victims pc.
+### This script is used to easily run long/encrypted script on victims pc.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
