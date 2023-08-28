@@ -95,7 +95,7 @@ Mr Proxy
 ## Acknowledgments
 
 * [MrSec](https://mrsec.bio/)
-* All Credits To WillyJl & I am Jakoby
+* All Credits To Willy & I am Jakoby
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
