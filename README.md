@@ -15,7 +15,7 @@
 
 
 
-# Unleash the power of your Flipper 🤓💻
+# Unleash the power of your Flipper/Bad USB 🤓💻
 
 ***  
 
