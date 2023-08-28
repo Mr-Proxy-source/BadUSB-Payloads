@@ -77,4 +77,4 @@
 ## Acknowledgments
 
 * [MrSec](https://mrsec.bio/)
-* All Credits To WillyJl & I am Jakoby
+* All Credits To Willy & I am Jakoby
