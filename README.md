@@ -15,7 +15,7 @@
 
 
 
-# Unleash the power of your Flipper/Rubber Ducky USB 🤓💻
+# Unleash the power of your Flipper/BadUSB 🤓💻
 
 ***  
 
