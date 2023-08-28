@@ -21,7 +21,7 @@
 
 ## Description 
 
-🔓 I have taken my colllection of payloads for the Flipper and posted it❗
+🔓 I have taken my colllection of payloads and posted it❗
 
 ⚠️ Please ENJOY and use RESPONSIBLY❗ 
 
