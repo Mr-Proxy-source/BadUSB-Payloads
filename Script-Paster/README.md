@@ -25,7 +25,7 @@ Payload used to import long/encrypted scripts really fast through the powershell
 
 ### This payload will open link with your payload, copy payload and then open wd bypassed powershell window and paste the script.
 ### This script is used to easily run long/encrypted script on victims pc.
-### REMINDER: Use this RESPONSIBLY and .txt is for Flipper Zero and .ps1 for Rubber Ducky USB
+### REMINDER: Use this RESPONSIBLY | Flipper Zero = .txt | USB Rubber Ducky = .ps1
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
