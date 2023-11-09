@@ -15,7 +15,7 @@
 
 
 
-# Unleash the power of your Flipper/BadUSB 🤓💻
+# Unleash the power of your Flipper/BadUSB 💻
 
 ***  
 
@@ -29,7 +29,8 @@
 
 | Payloads                                                                                                        | Description                                                                                       | Plug'n'Play | Author      |
 | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :-----------| :-----------|
-| [Script-Paster](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Script-Paster)                | Copy payload from the link then paste it in wd bypassed powershell windows in seconds              |⛔           | Mr. Proxy   |
+| [Script-Paster](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Script-Paster)                 | Copy payload from the link then paste it in wd bypassed powershell windows in seconds             |⛔           | Mr. Proxy   |
+| [Lazagne](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Lazagne)                             | Grabbing passwords and credentials from vulnerable systems.                                       |⛔           | Mr. Proxy   |
 
 
 <!-- CONTACT -->
