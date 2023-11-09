@@ -23,7 +23,7 @@ Lazagne on Flipper Zero or USB Rubber Ducky: Your all-in-one infiltrator. This B
 
 ## Description
 
-### REMINDER ⚠ You will need telegram bot for this script, so you will have to make bot and then change $bt & $ci!
+### REMINDER ⚠ You will need telegram bot for this script, so you will have to change $bt & $ci!
 ### When activated on Flipper Zero or USB Rubber Ducky, it stealthily infiltrates target systems, exploiting vulnerabilities to snatch sensitive data such as passwords and credentials. Essentially, it's a digital pickpocket, quietly making off with valuable information without leaving a trace.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
