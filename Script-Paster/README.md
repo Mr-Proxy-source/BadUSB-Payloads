@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+the;Script+Paster!+😈&center=true&size=30">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+the;Mimikatz+🛡&center=true&size=30">
   </a>
 </h1>
 
@@ -25,7 +25,7 @@ Payload used to import long/encrypted scripts really fast through the powershell
 
 ### This payload will open link with your payload, copy payload and then open wd bypassed powershell window and paste the script.
 ### This script is used to easily run long/encrypted script on victims pc.
-### REMINDER: Use this RESPONSIBLY | Flipper Zero = .txt | USB Rubber Ducky = .ps1
+### REMINDER: Use this RESPONSIBLY
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
