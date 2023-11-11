@@ -37,7 +37,7 @@ When activated on Flipper Zero or USB Rubber Ducky, it stealthily infiltrates ta
 
 * Plug in your device
 * Run The Script
-* And give it 2 seconds to run!
+* And give it few seconds to run!
 
 ## Contributing
 ### [AlessandroZ](https://github.com/AlessandroZ)
