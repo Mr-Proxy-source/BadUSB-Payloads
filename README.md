@@ -31,7 +31,7 @@
 | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :-----------| :-----------|
 | [Script-Paster](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Script-Paster)                  | Copy payload from the link then paste it in few powershell in seconds.                            |⛔           | MrProxy    |
 | [Lazagne](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Lazagne)                              | Grabbing passwords and credentials from vulnerable systems.                                       |⛔           | MrProxy    |
-| [File-Download](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/File-Downloader)              | Download file from your url and then execute it on targets system.                                |⛔           | MrProxy    |
+| [Downloader](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/File-Downloader)              | Download file from your url and then execute it on targets system.                                |⛔           | MrProxy    |
 
 
 <!-- CONTACT -->
