@@ -19,7 +19,7 @@
 
 # File Downloader 💻
 
-File Downloader is perfect script if you just want to download your file on target's system without leaving any trace, its made for .exe files but with changing powershell script you can easily make it work with any file extension!
+File Downloader is perfect script if you just want to download your file on target's system without leaving any trace, its made for any file you just have to change $extension
 
 ## Description
 
