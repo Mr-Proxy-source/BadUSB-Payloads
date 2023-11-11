@@ -37,7 +37,7 @@ File Downloader is perfect script if you just want to download your file on targ
 
 * Plug in your device
 * Run The Script
-* And give it 2 seconds to run!
+* And give it few seconds to run!
 
 ## Contributing
 ### [Mr-Proxy-Source](https://github.com/Mr-Proxy-source)
