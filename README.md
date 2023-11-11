@@ -48,7 +48,7 @@
       <br>YouTube
     </td>
     <td align="center" width="96">
-      <a href="https://twitter.com/venomhvnc">
+      <a href="https://twitter.com/cyscp">
         <img src=https://github.com/Mr-Proxy-Source/Mr-Proxy-Source/blob/main/img/twitter.png width="48" height="48" alt="Python" />
       </a>
       <br>Twitter
