@@ -94,6 +94,5 @@ File Downloader is perfect script if you just want to download your file on targ
 * [MrSec](https://mrsec.bio/)
 
 <p align="center">
-		<img src="https://shop.hak5.org/cdn/shop/files/mrduck7_2000x_a63241a5-04a4-4c93-9148-d35f26163e39_600x.gif?v=1659040745">
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
 </p>
