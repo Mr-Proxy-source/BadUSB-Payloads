@@ -19,11 +19,12 @@
 
 # PHP Exfiltrator 📛
 
-This project comprises a Rubber Ducky script 🦆 and a PHP script 🖥️. The primary objective is to systematically gather information from a Windows computer 💻 and transmit it to a designated Discord channel through a webhook 📤. The Rubber Ducky script extracts essential details such as the computer's name, hardware ID, IP address, and Windows version. Additionally, it utilizes the ipinfo.io API 🌍 to acquire supplementary IP-related information. The PHP script subsequently formats this collected data and transmits it to the designated Discord channel 📬, complemented by a Wolf of Wall Street-themed webhook.
+<b>This project comprises a Rubber Ducky script 🦆 and a PHP script 🖥️. The primary objective is to systematically gather information from a Windows computer 💻 and transmit it to a designated Discord channel through a webhook 📤. The Rubber Ducky script extracts essential details such as the computer's name, hardware ID, IP address, and Windows version. Additionally, it utilizes the ipinfo.io API 🌍 to acquire supplementary IP-related information. The PHP script subsequently formats this collected data and transmits it to the designated Discord channel 📬, complemented by a Wolf of Wall Street-themed webhook.</b>
 
 ## Description
+> [!NOTE]\
+> <b> You will have to host this php with any web hosting, and add your webhook in there! </b>
 
-### REMINDER ⚠ You will have to host this php with any web hosting, and add your webhook in there
 This is Rubber Ducky script and a PHP script to gather essential information from a Windows computer. The Rubber Ducky script collects details like computer name, hardware ID, IP address, and Windows version. It also utilizes the ipinfo.io API for additional IP-related information. The PHP script formats this data and sends it to a designated Discord channel using a webhook.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
