@@ -19,12 +19,14 @@
 
 # File Downloader 💻
 
-File Downloader is perfect script if you just want to download your file on target's system without leaving any trace, its made for any file you just have to change $extension
+<b>File Downloader is perfect script if you just want to download your file on target's system without leaving any trace, its made for any file you just have to change $extension</b>
 
 ## Description
 
-### This payload for Flipper Zero or USB Rubber Ducky swiftly downloads a file from a provided link and executes it on the target system, offering a concise and efficient method for remote file execution. Ideal for tasks like penetration testing and system administration.
-### REMINDER ⚠ You have to change $url and $extension in your .txt file!
+> [!NOTE]\
+> <b>You have to change $url and $extension in your .txt file!</b>
+
+This payload for Flipper Zero or USB Rubber Ducky swiftly downloads a file from a provided link and executes it on the target system, offering a concise and efficient method for remote file execution. Ideal for tasks like penetration testing and system administration.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
