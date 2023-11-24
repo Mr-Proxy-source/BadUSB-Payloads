@@ -21,9 +21,8 @@
 
 ## Description 
 
-🔓 I have taken my colllection of payloads and posted it❗
-
-⚠️ Please ENJOY and use RESPONSIBLY❗ 
+> [!IMPORTANT]\
+> This is for educational and learning purposes only. Do not intend for illegal use!
 
 ![main](https://github.com/Mr-Proxy-source/Mr-Proxy-source/raw/main/img/main.jpg)
 
@@ -81,3 +80,6 @@
 
 * [MrSec](https://mrsec.bio/)
 * All Credits To Willy & I am Jakoby
+<p align="center">
+        <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
+</p>
