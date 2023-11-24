@@ -19,13 +19,15 @@
 
 # Script Paster
 
-Payload used to import long/encrypted scripts really fast through the powershell!
+This payload will open link with your payload, copy payload and then open wd bypassed powershell window and paste the script.
+This script is used to easily run long/encrypted script on victims pc.
 
 ## Description
 
-### This payload will open link with your payload, copy payload and then open wd bypassed powershell window and paste the script.
-### This script is used to easily run long/encrypted script on victims pc.
-### REMINDER: Use this RESPONSIBLY
+> [!WARNING]\
+> Please enjoy and use RESPONSIBLY❗
+
+Payload used to import long/encrypted scripts really fast through the powershell!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
