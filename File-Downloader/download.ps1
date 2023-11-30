@@ -13,7 +13,7 @@ Start-Sleep -Seconds 5
 # Download the file
 Invoke-WebRequest -Uri $url -OutFile $output
 
-# Run the downloaded file (adjust the command as needed)
+# Run the downloaded file
 Start-Process -FilePath $output -Wait
 
 
