@@ -43,7 +43,7 @@ This payload open your desired website on iOS 17 and older versions! Save time w
 ## Contributing
 
 ### [Mr-Proxy-Source](https://github.com/Mr-Proxy-source)
-### [WillyJL](https://github.com/Willy-JL)
+### [Willy-JL](https://github.com/Willy-JL)
 
 ## Version History
 
