@@ -1,0 +1,15 @@
+REM     Title: IOS Website
+REM     Description: Open your desired website on iOS 17 or older version with this script. Activate Spotlight, enter your predefined keyword, and watch Safari launch directly to the specified site. 
+REM     Target: IOS 17 or older
+GUI h
+DELAY 1000
+GUI SPACE
+DELAY 250
+REM Put your link down there ↓
+STRING https://feds.lol
+DELAY 70
+TAB
+DELAY 70
+ENTER
+DELAY 150
+ENTER
