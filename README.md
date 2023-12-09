@@ -29,9 +29,10 @@
 | Payloads                                                                                                         | Description                                                                                       | Plug'n'Play | Author      |
 | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :-----------| :-----------|
 | [Script-Paster](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Script-Paster)                  | Copy payload from the link then paste it in few powershell in seconds.                            |⛔           | MrProxy    |
-| [Lazagne](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Lazagne)                              | Grabbing passwords and credentials from vulnerable systems.                                       |⛔           | MrProxy    |
-| [Downloader](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/File-Downloader)                   | Download file from your url and then execute it on targets system.                                |⛔           | MrProxy    |
+| [Lazagne](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Lazagne)                              | Grabbing passwords and credentials from vulnerable systems.                                       |✅           | MrProxy    |
+| [Downloader](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/File-Downloader)                   | Download file from your url and then execute it on targets system.                                |✅           | MrProxy    |
 | [PHPexfil](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/PHPexfil)                            | Gather essential information such as computer name, hardware ID,...                               |⛔           | MrProxy    |
+| [IOS-Website](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/IOS-Website)                      | Open your desired website on iOS 17 and older versions!                                           |✅           | MrProxy    |
 
 
 <!-- CONTACT -->
