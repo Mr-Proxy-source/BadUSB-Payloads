@@ -44,9 +44,7 @@ Payload used to import long/encrypted scripts really fast through the powershell
 
 ## Contributing
 
-All contributors names will be listed here
-
-Mr Proxy
+### [Mr-Proxy-Source](https://github.com/Mr-Proxy-source)
 
 ## Version History
 
