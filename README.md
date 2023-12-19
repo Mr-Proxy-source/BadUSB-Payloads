@@ -33,7 +33,7 @@
 | [Downloader](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/File-Downloader)                   | Download file from your url and then execute it on targets system.                                |✅           | MrProxy    |
 | [PHPexfil](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/PHPexfil)                            | Gather essential information such as computer name, hardware ID,...                               |⛔           | MrProxy    |
 | [IOS-Website](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/IOS-Website)                      | Open your desired website on iOS 17 and older versions!                                           |✅           | MrProxy    |
-| [Google-Exfil](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/IOS-Website)                      | Open your desired website on iOS 17 and older versions!                                           |✅           | MrProxy    |
+| [Google-Exfil](https://github.com/Mr-Proxy-source/Flipper-Zero-BadUSB/tree/main/Google-Exfil)                    | Upload victims Google User Data to gofile.io and sends link to telegram bot.                      |✅           | MrProxy    |
 
 
 <!-- CONTACT -->
