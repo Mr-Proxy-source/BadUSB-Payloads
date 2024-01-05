@@ -22,7 +22,7 @@
 
 ## Description
 > [!NOTE]\
-> <b>You will need [telegram bot](https://telegram.me/BotFather) for this script or Discord Webhook, so you will have to change $botToken & $chatID for telegram, ir if you want to use discord webhook change $webhook and leave other ones empty!</b>
+> <b>You will need [telegram bot](https://telegram.me/BotFather) for this script or Discord Webhook, so you will have to change $botToken & $chatID for telegram, or if you want to use discord webhook change $webhook and leave other ones empty!</b>
 
 This payload is designed to automate the process of zipping Google Chrome User Data, uploading the zipped file to a file-sharing service (GoFile), and then sending the download link of the uploaded file to a specified Telegram chat or through Discord Webhook.
 
