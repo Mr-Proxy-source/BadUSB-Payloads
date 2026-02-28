@@ -44,13 +44,13 @@
 <table>
   <tr>
     <td align="center" width="96">
-      <a href="https://youtube.com/@cysc.?sub_confirmation=1">
+      <a href="https://youtube.com/@mrproxy">
         <img src=https://github.com/Mr-Proxy-Source/Mr-Proxy-Source/blob/main/img/youtube-svgrepo-com.svg width="48" height="48" alt="C#" />
       </a>
       <br>YouTube
     </td>
     <td align="center" width="96">
-      <a href="https://twitter.com/cyscp">
+      <a href="https://twitter.com/mrproxy">
         <img src=https://github.com/Mr-Proxy-Source/Mr-Proxy-Source/blob/main/img/twitter.png width="48" height="48" alt="Python" />
       </a>
       <br>Twitter
@@ -68,7 +68,7 @@
       <br>Discord
     </td>
     <td align="center" width="96">
-      <a href="https://www.tiktok.com/@mrproxyonyt">
+      <a href="https://www.tiktok.com/@mrproxy">
         <img src=https://github.com/Mr-Proxy-Source/Mr-Proxy-Source/raw/main/img/tiktok.svg width="48" height="48" alt="Jsonnet" />
       </a>
       <br>TikTok
